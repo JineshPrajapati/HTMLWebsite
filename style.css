@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+}
+.top-box{
+    height: 50px;
+    background-color: #14279B;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navigation-box{
+    width: 800px;
+    height: 60px;
+}
+.navigation-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-box ul li{
+    list-style:none;
+    font-size: 20px;
+    color: white;
+}
+.navigation-box a{
+    color: white;
+    text-decoration: none;
+}
+.top-box h1{
+    color: white;
+}
+.about-me{
+    height: 600px;
+    background-color: black;
+}
+.about-me h1{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.about-raw{
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-col{
+    /* border: 2px solid yellow; */
+    width: 45%;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-col img{
+    height: 100%;
+    margin-left: 50px
+}
+/* .about-col p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.projects{
+    background-color: #EDEDED;
+    height: 900px;
+}
+.projects h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+.projects ul li{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.achivements{
+    background-color: black;
+    height: 450px;
+}
+.achivements h1{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    padding: 10px;
+    text-decoration: underline;
+}
+.achivements ul{
+    /* margin-left: 100px; */
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.contact{
+    background-color: #EDEDED;
+    height: 500px;
+}
+.contact h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    text-decoration: underline;
+    padding: 10px;
+}
+.contact-form{
+    background-color: black;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+form{ 
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+label{
+    color: white;
+}
+input{
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+textarea{
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+td{
+    padding: 10px 30px;
+}
+input[type='submit']{
+    background-color: rgb(116, 241, 116);
+    margin-left: 50px;
+    border-color: white;
+}
+.social-media{
+background-color: skyblue;
+padding: 20px;
+}
+.social-media td{
+    border-right: 1px solid black;
+    padding: 0px 60px;
+}
+
+.social-media td:last-child{
+    border-right: none;
+}
+
+footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
